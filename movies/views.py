@@ -4,9 +4,14 @@ from airtable import Airtable
 import os
 
 
-AT = Airtable(os.environ.get('AIRTABLE_MOVIESTABLE_BASE_ID'),
-              'Movies',
-              api_key=os.environ.get('AIRTABLE_API_KEY'))
+
+AIRTABLE_MOVIESTABLE_BASE_ID="app7lV0RMEcqIKsRm"
+AIRTABLE_API_KEY="keyMMKJWBNNn9Thxu"
+
+
+AT = Airtable(os.environ.get('AIRTABLE_MOVIESTABLE_BASE_ID', AIRTABLE_MOVIESTABLE_BASE_ID),
+              'Table%201',
+              api_key=os.environ.get('AIRTABLE_API_KEY', AIRTABLE_API_KEY))
 
 # Create your views here.
 def home_page(request):
