@@ -1,0 +1,1 @@
+web: gunicorn cp-barebone-movie-app-final.wsgi --log-file
