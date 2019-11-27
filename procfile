@@ -1,1 +1,1 @@
-web: gunicorn cp-barebone-movie-app-final.wsgi --log-file -
+web: gunicorn cp_django_barebones.wsgi --log-file -
