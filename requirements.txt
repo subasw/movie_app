@@ -6,6 +6,7 @@ Django==2.0
 django-heroku==0.3.1
 gunicorn==20.0.4
 idna==2.6
+pipenv==2018.11.26
 postgres==3.0.0
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
@@ -14,5 +15,7 @@ pytz==2017.3
 requests==2.18.4
 six==1.11.0
 urllib3==1.22
+virtualenv==16.7.8
+virtualenv-clone==0.5.3
 whitenoise==4.1.4
 wincertstore==0.2
