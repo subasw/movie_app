@@ -2,7 +2,7 @@ airtable-python-wrapper==0.8.0
 certifi==2018.1.18
 chardet==3.0.4
 dj-database-url==0.5.0
-Django==2.0
+Django==2.2.7
 django-heroku==0.3.1
 gunicorn==20.0.4
 idna==2.6
@@ -14,6 +14,7 @@ psycopg2-pool==1.1
 pytz==2017.3
 requests==2.18.4
 six==1.11.0
+sqlparse==0.3.0
 urllib3==1.22
 virtualenv==16.7.8
 virtualenv-clone==0.5.3
